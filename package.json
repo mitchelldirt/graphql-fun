@@ -8,12 +8,17 @@
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20230419.0",
+		"@types/pg": "^8.10.2",
+		"prisma": "^4.16.2",
+		"prisma-kysely": "^1.5.0",
 		"typescript": "^5.0.4",
 		"wrangler": "^3.0.0"
 	},
 	"dependencies": {
 		"@pothos/core": "^3.30.0",
 		"graphql": "^16.7.1",
-		"graphql-yoga": "^4.0.3"
+		"graphql-yoga": "^4.0.3",
+		"kysely": "^0.26.1",
+		"pg": "^8.11.1"
 	}
 }
